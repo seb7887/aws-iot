@@ -1,0 +1,35 @@
+.card {
+  min-width: 24rem;
+  background-color: $black;
+  color: $grey;
+  text-align: center;
+  box-shadow: 0px 15px 18px -12px rgba(0, 0, 0, 0.65);
+
+  &__icon {
+    margin-top: 1.5rem;
+    font-size: 4.5rem;
+    display: flex;
+    justify-content: center;
+
+    &--temp {
+      color: $orange;
+    }
+
+    &--hum {
+      color: $green;
+    }
+  }
+
+  &__info {
+    transform: all 0.3s;
+  }
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.value {
+  color: $white;
+  font-size: 5rem;
+}

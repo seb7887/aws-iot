@@ -7,10 +7,10 @@ const thingName = 'weather-device';
 const DELAY = 15;
 const TAG = `[${thingName}]>>>>>`;
 
-const keyPath = path.join(__dirname, '../certs/87a8f482a7-private.pem.key');
+const keyPath = path.join(__dirname, '../certs/86f7854064-private.pem.key');
 const certPath = path.join(
   __dirname,
-  '../certs/87a8f482a7-certificate.pem.crt'
+  '../certs/86f7854064-certificate.pem.crt'
 );
 const caPath = path.join(__dirname, '../certs/AmazonRootCA1.pem');
 
